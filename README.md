@@ -187,10 +187,6 @@ Linux is best in this World
 ^d
  ```
 
-## OUTPUT 
-<img width="415" height="178" alt="image" src="https://github.com/user-attachments/assets/718f5f46-4b39-4cbd-b7e1-6f36387db495" />
-
-
 
 
 egrep -w 'Hello|hello' newfile 
@@ -377,7 +373,8 @@ sed -n '2,4{s/$/*/;p}' file23
 
 
 
-#Sorting File content
+## Sorting File content
+
 cat > file21
 ```
 1001 | Ram | 10000 | HR
@@ -388,6 +385,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+<img width="411" height="182" alt="image" src="https://github.com/user-attachments/assets/2edab8d2-797d-494b-8d68-79f26f998a7b" />
 
 
 cat > file22
@@ -401,13 +399,18 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+<img width="331" height="179" alt="image" src="https://github.com/user-attachments/assets/8c2a5bb5-0ab4-4ade-94f0-f726c99e7990" />
 
 
 
-#Using tr command
+## Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="496" height="250" alt="image" src="https://github.com/user-attachments/assets/628a7c8b-7691-4445-b330-70aeaf8540d8" />
+
+
+
 
 cat < urllist.txt
 ```
@@ -424,17 +427,24 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+<img width="360" height="123" alt="image" src="https://github.com/user-attachments/assets/567c9f64-d5d2-444a-b0ca-0041a936618f" />
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+<img width="497" height="125" alt="image" src="https://github.com/user-attachments/assets/5b6ac1e6-61e2-44a5-8016-383c6ef5dc53" />
 
 
 
-#Backup commands
+## Backup commands
+
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="415" height="277" alt="image" src="https://github.com/user-attachments/assets/7547684b-cd10-45a3-837e-c5746d88f57e" />
+
+
+
 
 
 mkdir backupdir
@@ -445,10 +455,14 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="682" height="284" alt="image" src="https://github.com/user-attachments/assets/736afd7b-5a8a-462c-866d-b95e34904caf" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="795" height="428" alt="image" src="https://github.com/user-attachments/assets/03d0beee-820a-418b-b115-8a672a7e8a15" />
+
+
 
 gzip backup.tar
 
