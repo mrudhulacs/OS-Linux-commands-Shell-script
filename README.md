@@ -955,7 +955,13 @@ do
 echo "word:$test"
 done
 ```
+$ chmod 755 forin3.sh
 $ ./forin3.sh 
+
+## OUTPUT 
+
+<img width="329" height="248" alt="image" src="https://github.com/user-attachments/assets/082d8dab-9681-49c7-8a44-98fd1aeb2921" />
+
  
 cat forin1.sh 
 ```bash
@@ -967,8 +973,10 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
+$./forin1.sh
 
 ## OUTPUT
+<img width="318" height="200" alt="image" src="https://github.com/user-attachments/assets/9d626376-421c-420f-ace2-58d0862505fd" />
 
 
 
@@ -982,7 +990,15 @@ do
 echo "Visit beautiful $file“
 done
 ```
-$ chmod 777 forinfile.sh
+$ chmod 755 forinfile.sh
+$./forinfile.sh
+
+## OUTPUT 
+<img width="740" height="120" alt="image" src="https://github.com/user-attachments/assets/50ed0380-fda7-4b25-856d-281da3f5de43" />
+
+
+
+
 $ cat cities
 Hyderabad
 Alampur
@@ -993,6 +1009,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+<img width="317" height="228" alt="image" src="https://github.com/user-attachments/assets/fbe7e645-6b25-40a8-9c4b-ad5a38bc0da5" />
 
 
 cat forctype.sh 
@@ -1005,8 +1022,12 @@ echo "The value of i is $i"
 done
 ````
 $ chmod 755 forctype.sh
+
 $ ./forctype.sh 
 ## OUTPUT
+<img width="319" height="177" alt="image" src="https://github.com/user-attachments/assets/6f13d16e-5f7e-4815-9360-649f7bad2bde" />
+
+
 
 cat forctype1.sh 
 ```bash
@@ -1018,8 +1039,18 @@ echo "$a - $b"
 done
 ```
 $ chmod 755 forctype.sh
+
 $ ./forctype1.sh 
+
 ## OUTPUT
+
+<img width="422" height="126" alt="image" src="https://github.com/user-attachments/assets/3fb5a87f-3cf2-4753-a47f-0d22406eb92f" />
+
+
+
+
+
+
 
 cat fornested1.sh 
 ```bash
@@ -1037,7 +1068,12 @@ done
 $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
+
  ## OUTPUT
+<img width="333" height="350" alt="image" src="https://github.com/user-attachments/assets/000cd628-1554-497e-8713-22fa11e48443" />
+
+
+
 
  
 cat forbreak.sh 
@@ -1054,13 +1090,22 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
+
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
+
+## OUTPUT
+<img width="693" height="179" alt="image" src="https://github.com/user-attachments/assets/8d1b0330-b4e7-4a86-870e-9fb892a64112" />
+
+
+
+
+
+
  
-cat forbreak.sh 
+cat Forcontinue.sh
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -1078,8 +1123,18 @@ echo "The for loop is completed“
  
 $ chmod 755 forcontinue.sh
  
-$ ./forcontinue.sh 
+$ ./forcontinue.sh
+
+
 ## OUTPUT
+<img width="327" height="159" alt="image" src="https://github.com/user-attachments/assets/3eb1aa3f-597c-4efb-868b-097645cb89ac" />
+
+
+
+
+
+
+
  
 cat exread.sh 
 ```bash
